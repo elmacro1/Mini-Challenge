@@ -1,0 +1,24 @@
+.main__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.list__container {
+  display: flex;
+  list-style: none;
+  border-radius: 25px;
+  border: 1px solid red;
+  width: 500px;
+  height: 40px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.list__container li {
+  cursor: pointer;
+}
+
+.list__container li:hover {
+  font-weight: 700;
+}

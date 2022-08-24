@@ -1,0 +1,37 @@
+.main__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table__container {
+  border: 1px solid blue;
+  display: flex;
+}
+
+.headers__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.headers__container span {
+  padding: 16px;
+}
+
+.info__container {
+  min-width: 500px;
+}
+
+.info__container div {
+  box-sizing: border-box;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-around;
+}
+
+.info__container div span {
+  padding: 16px;
+}
